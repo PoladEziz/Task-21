@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: #28293E;
+    padding: 180px 135px;
+    display: flex;
+    justify-content: space-between;
+
+  
+
+    .left-img-box {
+        position: relative;
+        width: 570px;
+        height: 448px;
+        .backround-img {
+            position: absolute;
+            width: 570px;
+height: 448px;
+        }
+
+        .person-img {
+            position: absolute;
+            left: 42px;
+            bottom: 0;
+        }
+    }
+
+    .text-box {
+        position: relative;
+        background-color: red;
+        div{
+            position: relative;
+            
+            h2 {
+                margin-top: 44px;
+                margin-right: 309px;
+                margin-bottom: 33px;
+                color: var(--Text_Light_Accent, #EF6D58);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Epilogue;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+            }
+    
+            h1 {
+                z-index: 9999;
+                margin-bottom: 44px;
+                color: var(--Text_Light, #FFF);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Epilogue;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 48px;
+            }
+    
+            h3 {
+                margin-bottom: 6px;
+                color: var(--Text_Light, #FFF);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Epilogue;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+            }
+    
+            p {
+                color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Epilogue;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+        .apostrophe {
+            position: absolute;
+            z-index: 1;
+           right: 48px;
+            top: 53px;
+        }
+     
+    }
+
+}
